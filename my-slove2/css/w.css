@@ -1,0 +1,198 @@
+body {
+  font-size: 18px;
+  margin: 0%;
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  line-height: 1.7em;
+  overflow-x: hidden;
+}
+
+button {
+  display: block;
+  margin: 26px auto;
+  font-size: large;
+  width: 268px;
+  border-style: none;
+  border-bottom-style: inset;
+
+}
+
+p {
+  margin: 0 auto;
+  margin-bottom: 58px;
+  width: 90%;
+}
+
+div {
+  margin-bottom: 180px;
+  width: 100%;
+}
+
+h2 {
+  width: 93%;
+  margin: 22px auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+
+.main {
+  width: 375px;
+  background-color: white;
+  color: hsl(210, 10%, 33%);
+  margin: 0%;
+}
+
+.mea {
+  padding-top: 44px;
+  padding-left: 21px;
+  padding-right: 18px;
+}
+
+.img-top {
+  margin: 97px 0;
+}
+
+.btn2 {
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  color: #ffffff;
+  background: #5FD068;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #62ff42;
+  text-decoration: none;
+}
+
+.btn1 {
+
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
+  color: #ffffff;
+  background: #1363DF;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background: #8a9eff;
+  text-decoration: none;
+}
+
+.com {
+  width: 95%;
+  margin: 7% auto;
+}
+
+.header {
+  background-image: url(../images/bg-header-desktop.png);
+  width: 100%;
+}
+
+.footer a {
+  display: block;
+  text-decoration: none;
+  color: darkslategray;
+  margin: 10% auto 0%;
+}
+
+.footer {
+  margin: 33px 0 0px;
+  background-color: honeydew;
+}
+
+@media (min-width:1000px) {
+
+  div {
+    margin: 0% auto;
+    width: 90%;
+
+
+
+  }
+
+
+
+  p {
+    width: 50%;
+  }
+
+  button {
+    display: inline-block;
+    margin: 0 19px 120px;
+  }
+
+  img {
+    margin: 0% 7px;
+  }
+
+  .main {
+    width: 1400px;
+
+  }
+
+  .header {
+    background-image: url(../images/bg-header-desktop.png);
+    width: 100%;
+  }
+
+  .com {
+    width: 50%;
+  }
+
+  #for {
+    float: left;
+    padding-right: 71px;
+  }
+
+  .under1 {
+    text-align: left;
+  }
+
+  .under1 p {
+    width: 71%;
+    margin-bottom: 20px;
+  }
+
+  .help {
+    padding-top: 110px;
+  }
+
+  .under2 {
+    padding-top: 199px;
+  }
+
+  .footer a {
+    margin: 0% 22px;
+    padding: 0%;
+    display: inline-block;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .mon {
+    width: 4%;
+    opacity: 0.7;
+  }
+
+  .under3 {
+    margin-bottom: 110px;
+  }
+
+  .u {
+    width: 4%;
+  }
+
+
+}

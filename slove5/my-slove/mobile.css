@@ -1,0 +1,97 @@
+body {
+  background-color: #0d192b;
+  text-align: center;
+  color: white;
+  font-family: 'Outfit', sans-serif;
+  width: 375px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+}
+
+div {
+  display: inline-block;
+  width: 245px;
+  background-color: #14253d;
+  text-align: left;
+}
+
+hr {
+  border: none;
+  width: 91%;
+  border-bottom: revert;
+}
+
+.up {
+  display: block;
+  width: 100%;
+  border-radius: 11PX;
+
+}
+
+.view {
+  width: 21%;
+  position: relative;
+  left: 38%;
+  top: 41%;
+
+}
+
+.over {
+  position: absolute;
+  top: 15px;
+  background-color: #00fff77a;
+  height: 245px;
+  border-radius: 11PX;
+  opacity: 0;
+}
+
+div:hover {
+  opacity: 1;
+}
+
+.down {
+  width: 10%;
+  border-radius: 50px;
+  border: ridge;
+  float: left;
+}
+
+
+.main {
+  border-radius: 17px;
+  padding: 15px;
+}
+
+.in {
+  display: inline;
+}
+
+
+.ph1 {
+  padding-right: 1%;
+  margin: -2px;
+
+}
+
+.ph {
+  padding-left: 19%;
+  margin: -2PX;
+}
+
+.ina {
+  display: inline-block;
+  margin-top: 4px;
+  padding-right: 10px;
+}
+
+span:hover,
+h2:hover {
+  color: #00fff7;
+}
+
+.Under {
+  text-align: center;
+}

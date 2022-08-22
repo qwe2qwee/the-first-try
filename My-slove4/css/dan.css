@@ -1,0 +1,319 @@
+body {
+  font-size: 18px;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #040303d4;
+
+}
+
+div {
+  width: 355px;
+  margin: 0 auto;
+  padding: 23px 0 83px;
+  border-radius: 25px;
+
+}
+
+h1 {
+  padding-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+img {
+  width: 100%;
+}
+
+.header {
+  background-image: url(../images/bg-hero-mobile.svg);
+  background-color: hsl(193, 100%, 96%);
+}
+
+.headd {
+  font-weight: 700;
+}
+
+#head {
+  width: 32%;
+  position: relative;
+  right: 18%;
+}
+
+.main {
+  width: 375px;
+  text-align: center;
+  padding: 0%;
+}
+
+
+.footer {
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 213px;
+  padding-top: 200px;
+  color: white;
+  text-align: left;
+  padding-bottom: 0%;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.pink-button {
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 33px;
+  width: 183px;
+  border: none;
+  height: 32px;
+  margin: 20px auto 50px;
+  color: aliceblue;
+}
+
+.button-head {
+  position: relative;
+  left: 18%;
+  border-radius: 33px;
+  border: none;
+  width: 24%;
+  background-color: white;
+  box-shadow: 0px 0px 0px 2px #dce6e6bd;
+
+}
+
+.under1,
+.under2,
+.under3 {
+
+  margin: 40px auto;
+  box-shadow: 0px 0px 0px 2px #dce6e6bd;
+}
+
+.header,
+.footer {
+  width: 100%;
+  border-radius: initial;
+}
+
+.under {
+  box-shadow: 0px 0px 0px 2px #dce6e6bd;
+  position: absolute;
+  background-color: white;
+  margin: 0 10px;
+  padding-bottom: 0;
+}
+
+ul {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+
+}
+
+.fris {
+  margin: 22px 0;
+}
+
+li {
+  padding-top: 18px;
+  margin-left: 35px;
+}
+
+.foo {
+  padding-bottom: 0%;
+}
+
+.last {
+  margin: 0%;
+  width: 95%;
+  font-size: medium;
+}
+
+.gogo {
+  width: 6%;
+  outline: solid;
+  padding: 6px;
+  border-radius: 43%;
+  margin-left: 15%;
+}
+
+.nar {
+  margin: 0%;
+  padding: 0%;
+  border-left: none;
+  border-radius: none;
+  box-sizing: border-box;
+}
+
+
+
+@media (min-width:1000px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+
+  img {
+    width: 100%;
+  }
+
+  div {
+    width: 70%;
+    display: inline-block;
+    margin: auto;
+    padding: 23px 0 0px;
+    border-radius: 18px
+  }
+
+  ul {
+    list-style: none;
+    display: inline-block;
+    width: 15%;
+    list-style: none;
+  }
+
+  li {
+    padding-top: 10px;
+    margin-left: 35px;
+  }
+
+  .fris {
+    width: 33%;
+  }
+
+  .main {
+    width: 1400px;
+    position: relative;
+  }
+
+  .button-head {
+    position: absolute;
+    border-radius: 33px;
+    border: none;
+    height: 47px;
+    top: 21px;
+    left: 1143px;
+    width: 15%;
+    background-color: white;
+    box-shadow: 0px 0px 0px 2px #dce6e6bd;
+  }
+
+  #head {
+    width: 20%;
+    position: absolute;
+    left: 24px;
+
+  }
+
+
+  .header {
+    text-align: left;
+    position: relative;
+  }
+
+  .footer {
+    padding: 59px;
+    display: inline-block;
+  }
+
+  .nar {
+    width: 49%;
+    margin-top: 181px;
+    height: 495.792px;
+    margin: auto;
+    float: right;
+  }
+
+  .nar-top1 {
+    width: 49%;
+    margin-top: 100px;
+
+  }
+
+  .nar-top2 {
+    width: 50%;
+    margin-top: 100px;
+    float: right;
+    margin-right: 14px;
+
+
+  }
+
+  .pink-button {
+    height: 49px;
+    margin: 20px auto 50px;
+    margin-left: 61px;
+  }
+
+
+  .nar1 {
+    width: 49%;
+    margin-top: 181px;
+    height: 495.792px;
+    margin: auto;
+    text-align: left;
+  }
+
+  .last {
+    padding-top: 118px;
+  }
+
+  .foo {
+    padding-bottom: 0%;
+    width: 27%;
+  }
+
+  .gogo {
+    margin-left: 5%;
+    width: 6%;
+  }
+
+  p,
+  h1,
+  h2 {
+    width: 74%;
+    padding-left: 68px;
+  }
+
+  .under {
+    bottom: 348px;
+    left: 286px;
+    width: 58%;
+    text-align: center;
+
+  }
+
+  .under .pink-button {
+    margin-left: 0px;
+
+  }
+
+  .under h2 {
+    margin: auto;
+    padding-left: 0%;
+  }
+
+  .under1,
+  .under2,
+  .under3 {
+    width: 85%;
+  }
+
+
+  #yy {
+    float: left;
+  }
+
+  .logo-botton {
+    width: 46%;
+  }
+}

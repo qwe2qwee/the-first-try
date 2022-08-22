@@ -1,0 +1,144 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0%;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  position: relative;
+  left: 183px;
+  bottom: 50px;
+}
+
+.img-top,
+.image {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  width: 100%;
+}
+
+.main {
+  width: 345px;
+  padding: 30px;
+  background-color: lightskyblue;
+  text-align: center;
+}
+
+.in-side {
+  margin: 0% auto;
+  width: 299px;
+  border-radius: 24px;
+  color: hsl(224, 23%, 55%);
+  background-color: white;
+
+}
+
+.text2 {
+  padding: 20px;
+}
+
+.last {
+  width: 240px;
+  text-align: left;
+  line-height: 2.1;
+  margin-top: 62px;
+  margin-bottom: 18px;
+  border-radius: inherit;
+}
+
+.last p,
+h4 {
+  display: inline-block;
+  width: 50%;
+  margin: 0%;
+}
+
+.img-bottom {
+  width: 20%;
+  padding-right: 19px;
+  float: left;
+}
+
+.sub {
+  display: inherit;
+  width: 100%;
+  border-radius: 14px;
+  border-block-color: blue;
+  background-color: darkblue;
+  color: white;
+  height: 46px;
+  border-style: hidden;
+}
+
+.sub:hover {
+  background-color: cornflowerblue;
+  border-color: cornflowerblue;
+}
+
+.re {
+  border: lightseagreen;
+  margin-top: 22px;
+  background-color: white;
+}
+
+.re:hover,
+a:hover {
+  color: #7280a7;
+  text-decoration: none;
+  font-size: 16px;
+  font-size: 101%;
+}
+
+
+
+.last p {
+  clear: left;
+
+}
+
+@media (min-width:1000px) {
+
+  body {
+    text-align: center;
+    margin: 0% auto;
+    background-color: #87cefa;
+
+  }
+
+  a {
+    position: relative;
+    left: 218px;
+    bottom: 50px;
+  }
+
+  .main {
+    width: 1400px;
+    padding: 30px;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+
+  }
+
+  .last {
+    margin-top: 62px;
+    margin-bottom: 18px;
+    margin-left: 41px;
+  }
+
+  .in-side {
+    width: 529px;
+  }
+
+  .text2 {
+    padding: 83px;
+    padding-top: 0%;
+  }
+
+
+}
